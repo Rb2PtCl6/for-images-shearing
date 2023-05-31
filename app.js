@@ -1,9 +1,9 @@
-const express = require('express');
+const express = require("express");
 const path = require('path');
 const fs = require('fs');
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3001;
 
 const images = JSON.parse(fs.readFileSync("technical/info"))
 
@@ -43,5 +43,7 @@ app.get("/technical/info", (req, res) =>{
 /*app.listen(port, () => {
     console.log(`Server running at http://localhost:${port}`);
   });*/
+
+app.listen(port, () => console.log(`Example app listening on port ${port}!`));
 
 // http://localhost:3000/images?data=0:111
