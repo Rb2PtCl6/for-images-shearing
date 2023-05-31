@@ -1,0 +1,23 @@
+{
+  "name": "for-images-shearing",
+  "version": "1.0.0",
+  "description": "small text",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rb2PtCl6/for-images-shearing.git"
+  },
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rb2PtCl6/for-images-shearing/issues"
+  },
+  "homepage": "https://github.com/Rb2PtCl6/for-images-shearing#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
