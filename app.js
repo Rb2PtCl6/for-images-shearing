@@ -39,6 +39,15 @@ app.get("/technical", (req, res) =>{
 app.get("/technical/info", (req, res) =>{
     say(res)
 })
+app.get("/generate", (req, res) =>{
+    say(res)
+})
+app.get("/generate/cnv.js", (req, res) =>{
+    say(res)
+})
+app.get("/generate/info", (req, res) =>{
+    say(res)
+})
 
 /*app.listen(port, () => {
     console.log(`Server running at http://localhost:${port}`);
